@@ -29,14 +29,12 @@ class FoodControllerVCCollectionViewController: UICollectionViewController {
     
     //compositional layout
     init(){
-        //let layout = UICollectionViewFlowLayout()
-        
-        //comp layout
-        
+    
         
         super.init(collectionViewLayout: FoodControllerVCCollectionViewController.createLayout() )
     }
 
+    //first section
     static func createLayout()-> UICollectionViewCompositionalLayout{
        return  UICollectionViewCompositionalLayout { (sectioNumber, env) -> NSCollectionLayoutSection? in
             let item = NSCollectionLayoutItem(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1)))
@@ -44,12 +42,15 @@ class FoodControllerVCCollectionViewController: UICollectionViewController {
             item.contentInsets.bottom = 16
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(300)), subitems: [item])
             let section = NSCollectionLayoutSection(group: group)
+        
+        section.orthogonalScrollingBehavior = .continuous
             return section
             
         }
     }
         
         
+    
         
         
     required init?(coder: NSCoder) {
@@ -59,13 +60,16 @@ class FoodControllerVCCollectionViewController: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 5
+        return 2
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 15
+        if  section == 0{
+            return 3
+        }
+        return 8
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>34DEE407-4049-4970-91B4-8AA79AFBF618</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>34DEE407-4049-4970-91B4-8AA79AFBF618.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FoodLayoutTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FoodLayoutTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run FoodLayoutTest</string>
+			<key>timeStartedRecording</key>
+			<real>613322248.17044199</real>
+			<key>timeStoppedRecording</key>
+			<real>613324203.47554898</real>
+			<key>title</key>
+			<string>Run FoodLayoutTest</string>
+			<key>uniqueIdentifier</key>
+			<string>34DEE407-4049-4970-91B4-8AA79AFBF618</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
