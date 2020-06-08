@@ -1,7 +1,8 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "c06d6196724c20c5f3ba4c9bc99cf32b"
-build_time: [1591626319, 987901000]
+build_time: [1591629386, 678236000]
 inputs:
   "/Users/marvinevins/Library/Autosave Information/FoodLayoutTest/FoodLayoutTest/ViewController.swift": [1591626312, 554577407]
+  "/Users/marvinevins/Library/Autosave Information/FoodLayoutTest/FoodLayoutTest/FoodControllerVCCollectionViewController.swift": [1591629234, 752390968]
   "/Users/marvinevins/Library/Autosave Information/FoodLayoutTest/FoodLayoutTest/AppDelegate.swift": [1591626312, 542104830]
   "/Users/marvinevins/Library/Autosave Information/FoodLayoutTest/FoodLayoutTest/SceneDelegate.swift": [1591626312, 552763064]

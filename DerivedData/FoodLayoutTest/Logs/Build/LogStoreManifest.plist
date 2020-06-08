@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>E92CA86F-6212-4E88-9996-AF2656FA0961</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E92CA86F-6212-4E88-9996-AF2656FA0961.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FoodLayoutTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FoodLayoutTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FoodLayoutTest</string>
+			<key>timeStartedRecording</key>
+			<real>613322243.63767695</real>
+			<key>timeStoppedRecording</key>
+			<real>613322246.82040405</real>
+			<key>title</key>
+			<string>Build FoodLayoutTest</string>
+			<key>uniqueIdentifier</key>
+			<string>E92CA86F-6212-4E88-9996-AF2656FA0961</string>
+		</dict>
+		<key>EED21284-0AC6-43EB-B45B-41D92B5AE184</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EED21284-0AC6-43EB-B45B-41D92B5AE184.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FoodLayoutTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FoodLayoutTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FoodLayoutTest</string>
+			<key>timeStartedRecording</key>
+			<real>613322248.09791398</real>
+			<key>timeStoppedRecording</key>
+			<real>613322248.14900994</real>
+			<key>title</key>
+			<string>Build FoodLayoutTest</string>
+			<key>uniqueIdentifier</key>
+			<string>EED21284-0AC6-43EB-B45B-41D92B5AE184</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

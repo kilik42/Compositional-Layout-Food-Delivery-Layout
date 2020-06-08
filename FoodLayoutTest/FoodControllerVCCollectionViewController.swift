@@ -32,17 +32,26 @@ class FoodControllerVCCollectionViewController: UICollectionViewController {
         //let layout = UICollectionViewFlowLayout()
         
         //comp layout
-        let layout = UICollectionViewCompositionalLayout { (sectioNumber, env) -> NSCollectionLayoutSection? in
+        
+        
+        super.init(collectionViewLayout: FoodControllerVCCollectionViewController.createLayout() )
+    }
+
+    static func createLayout()-> UICollectionViewCompositionalLayout{
+       return  UICollectionViewCompositionalLayout { (sectioNumber, env) -> NSCollectionLayoutSection? in
             let item = NSCollectionLayoutItem(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1)))
+            item.contentInsets.trailing = 16
+            item.contentInsets.bottom = 16
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(300)), subitems: [item])
             let section = NSCollectionLayoutSection(group: group)
             return section
             
         }
-        
-        super.init(collectionViewLayout: layout )
     }
-
+        
+        
+        
+        
     required init?(coder: NSCoder) {
         fatalError("init(coder: ) has not been implementend")
     }
